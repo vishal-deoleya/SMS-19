@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: #eeeeee;
+}
+
+#heading {
+  font-family: 'Roboto', sans-serif
+}
+
+#topHeader {
+  padding: 15px;
+  padding-bottom: 8px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.sidenavbar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: block;
+}
+
+.sidenavbar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.sidenavbar a:hover {
+  color: purple;
+}
+
+.sidenavbar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.change {
+  padding: 15px;
+}
+
+.change2 {
+  position: relative;
+  padding: 10px;
+  line-height: 45px;
+}
+
+.row .col {
+  padding: 0 !important;
+}
+
+.col {
+  overflow-x: hidden;
+  margin-bottom: 8px;
+}
+.current-user {
+  background: #616161;
+}
+
+@media screen and (max-width: 500px) {
+  #topHeader {
+    padding-bottom: 0;
+  }
+}

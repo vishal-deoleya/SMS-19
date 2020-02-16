@@ -1,0 +1,20 @@
+#env
+sms19-env
+env
+
+#Python
+*.pyc
+
+# Cache files
+__pycache__/
+*.py[cod]
+
+#Editor
+.vscode
+
+# Pycharm 
+*.xml
+*.iml
+
+#Migrations
+migrations
